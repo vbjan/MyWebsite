@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+
+            <div class="left-side">
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="index.html"> < Projects > </a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="about.html"> < About Me ></a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="Downloads.html"> < Downloads > </a>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class="brand">
+                    <div>JAN-PHILIPP VON BASSEWITZ</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="home-page-content-wrapper">
+            <div class="intro-text-wrapper">
+                <h1>Selection of projects on my journey towards Data Science:</h1>
+            </div>
+            <div class="content-wrapper">
+                <div class="portfolio-section-wrapper">
+                    <div class="portfolio-items-wrapper">
+
+                        <div class="portfolio-item-wrapper" id="1st-portfolio-button" onclick="simple_show_hide('1st-portfolio-button','1st-portfolio-item')">
+                            <div class="portfolio-img-background" style="background-image:url(images/study.jpg)"> </div>
+                            <div class="img-text-wrapper">
+                                <div class="logo-wrapper">
+                                    <!--<img src="images/logos/british-library-gTV2osuOsJc-unsplash.jpg">-->
+                                    <div class="subtitle">
+                                        Oct_2020: Studying Gaussian Processes and writing a comprehensive report
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item-wrapper" id="2nd-portfolio-button" onclick="simple_show_hide('2nd-portfolio-button','2nd-portfolio-item')">
+                            <div class="portfolio-img-background" style="background-image:url(images/weightlifting.jpg)"> </div>
+                            <div class="img-text-wrapper">
+                                <div class="logo-wrapper">
+                                    <!--<img src="images/logos/british-library-gTV2osuOsJc-unsplash.jpg">-->
+                                    <div class="subtitle">
+                                        Nov_2020: Webscraping bot for automating gym reservations using python
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item-wrapper" id="3rd-portfolio-button" onclick="simple_show_hide('3rd-portfolio-button','3rd-portfolio-item')">
+                            <div class="portfolio-img-background"  style="background-image:url(images/coding.jpg)"> </div>
+                            <div class="img-text-wrapper">
+                                <div class="logo-wrapper">
+                                    <!--<img src="images/logos/british-library-gTV2osuOsJc-unsplash.jpg">-->
+                                    <div class="subtitle">
+                                        Feb_2021: This exact webpage using HTML + CSS
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-desc-wrapper" id="1st-portfolio-item">
+                        <div class="chevron-layout-wrapper">
+                            <div class="chevron-wrapper">
+                                <img src="images/logos/up-chevron.png">
+                            </div>
+                            <div class="chevron-wrapper"></div>
+                            <div class="chevron-wrapper"></div>
+                        </div>
+                        <div class="two-col-wrapper-projects">
+                            <div class="portfolio-image-wrapper">
+                                <img src="images/SoM_report_GaussianProcessesV07.jpg">
+                            </div>
+                            <div class="portfolio-item-text-wrapper">
+                                <div class="portfolio-item-headline-wrapper">
+                                    <h2>Studying Gaussian Processes and writing a comprehensive report on methods of propagating uncertainty</h2>
+                                </div>
+                                <p>Gaussian Processes (GPs) are a powerful data-driven tool for approximating unknown or expensive to evaluate functions. GPs are specifically useful for time-series prediction which is for example used in Control to model dynamical systems. GPs ability to express the uncertainty of the relative prediction renders them especially useful here.</p>
+                                <p>GPs come with the downside that their computational effort does not scale well with large amounts of data. They are additionally difficult to evaluate at random inputs as there is no closed-form solution for such evaluations. Unfortunately the conventional ways of approximating the propagation of uncertainty underestimate it. Both of these drawbacks are reducing the applicability of GPs in Control. I am addressing these issues in the  report by summarizing a range of recent state-of-the-art solutions to these challenges.</p>
+                                <div class="download-wrapper-black">
+                                    <a href="downloads/SoM_report_GaussianProcessesV07.pdf.zip">< DOWNLOAD REPORT ></a>
+                                </div>
+                                <div class="download-wrapper-black">
+                                    <a href="https://github.com/vbjan/SoM_report_GaussianProcesses">< LINK TO GITHUB REPO ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-desc-wrapper" id="2nd-portfolio-item">
+                        <div class="chevron-layout-wrapper">
+                            <div class="chevron-wrapper"></div>
+                            <div class="chevron-wrapper">
+                                <img src="images/logos/up-chevron.png">
+                            </div>
+                            <div class="chevron-wrapper"></div>
+                        </div>
+                        <div class="two-col-wrapper-projects">
+                            <div class="portfolio-image-wrapper">
+                                <img src="images/coding.jpg">
+                            </div>
+                            <div class="portfolio-item-text-wrapper">
+                                <h2>Webscraping bot for automating gym reservations using python</h2>
+                                <p>sdfadf sdfa kl sk f kal flöa f klös afs f</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-desc-wrapper" id="3rd-portfolio-item">
+                        <div class="chevron-layout-wrapper">
+                            <div class="chevron-wrapper"></div>
+                            <div class="chevron-wrapper"></div>
+                            <div class="chevron-wrapper">
+                                <img src="images/logos/up-chevron.png">
+                            </div>
+                        </div>
+                        <div class="two-col-wrapper-projects">
+                            <div class="portfolio-image-wrapper">
+                                <img src="images/coding.jpg">
+                            </div>
+                            <div class="portfolio-item-text-wrapper">
+                                <h2>Subtitle</h2>
+                                <p>sdfadf sdfa kl sk f kal flöa f klös afs f</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- next row of projects... -->
+                <div class="portfolio-section-wrapper">
+                    <div class="portfolio-items-wrapper">
+                        <div class="portfolio-item-wrapper" id="4th-portfolio-button" onclick="simple_show_hide('4th-portfolio-button','4th-portfolio-item')">
+                            <div class="portfolio-img-background" style="background-image:url(images/underconstruction.jpg)"> </div>
+                            <div class="img-text-wrapper">
+                                <div class="logo-wrapper">
+                                    <div class="subtitle">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item-wrapper"></div>
+                        <div class="portfolio-item-wrapper"></div>
+
+                        <!--
+                        -----USE THIS WHEN ADDING NEW PROJECTS----
+
+                        <div class="portfolio-item-wrapper" id="5th-portfolio-button" onclick="simple_show_hide('5th-portfolio-button','5th-portfolio-item')">
+                            <div class="portfolio-img-background" style="background-image:url(images/jeswin-thomas-hecib2an4T4-unsplash.jpg)"> </div>
+                            <div class="img-text-wrapper">
+                                <div class="logo-wrapper">
+                                    <div class="subtitle">
+                                        One hell of a project
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item-wrapper" id="6th-portfolio-button" onclick="simple_show_hide('6th-portfolio-button','6th-portfolio-item')">
+                            <div class="portfolio-img-background" style="background-image:url(images/jeswin-thomas-hecib2an4T4-unsplash.jpg)"> </div>
+                            <div class="img-text-wrapper">
+                                <div class="logo-wrapper">
+                                    <div class="subtitle">
+                                        One hell of a project
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                    </div>
+                    <div class="portfolio-item-desc-wrapper" id="4th-portfolio-item">
+                        <div class="chevron-layout-wrapper">
+                            <div class="chevron-wrapper">
+                                <img src="images/logos/up-chevron.png">
+                            </div>
+                            <div class="chevron-wrapper"></div>
+                            <div class="chevron-wrapper"></div>
+                        </div>
+                        Coming soon...
+                    </div>
+                    <!--
+                    -----USE THIS WHEN ADDING NEW PROJECTS----
+
+                    <div class="portfolio-item-desc-wrapper" id="5th-portfolio-item">
+                        5th-portfolio-item
+                    </div>
+                    <div class="portfolio-item-desc-wrapper" id="6th-portfolio-item">
+                        6th-portfolio-item
+                    </div>-->
+                </div>
+            </div>
+        </div>
+        <div class="logo-bar-wrapper">
+            <div class="logo-wrapper" >
+                <a href="https://www.linkedin.com/in/jan-philipp-von-bassewitz-a4360a157">
+                    <img src="images/logos/LI-In-Bug.png" >
+                </a>
+            </div>
+            <div class="logo-wrapper">
+                <a href="https://www.instagram.com/janvb1/?hl=de">
+                    <img src="images/logos/ig-logo-bw.png">
+                </a>
+            </div>
+            <div class="logo-wrapper">
+                <a href="https://github.com/vbjan">
+                    <img src="images/logos/GitHub-Mark-64px.png">
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="show_hide.js">
+</script>
+</html>
