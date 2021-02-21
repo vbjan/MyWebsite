@@ -227,6 +227,12 @@ a {
     padding-left: 20%;
     padding-top: 10%;
 }
+.profile-main-body-wrapper a {
+    color: #8a8a8a;
+}
+.profile-main-body-wrapper a:hover {
+    color: black;
+}
 
 /*---------------------------------Downloads-----------------------------*/
 .download-page-content-wrapper {
