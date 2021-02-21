@@ -23,7 +23,11 @@ function simple_show_hide(button_id,item_id){
         }
     })
     firstClick = false;
+}
 
+function hide(item_id) {
+    portfolioItem = document.getElementById(item_id).style.display="none";
+    console.log("hide(id) ran")
 }
 
 const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')

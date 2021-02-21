@@ -82,15 +82,22 @@
                             <div class="chevron-wrapper"></div>
                             <div class="chevron-wrapper"></div>
                         </div>
+                        <div class="cross-layout-wrapper">
+                            <div class="cross-img-wrapper" >
+                                <img src="images/logos/cross.png" onclick="hide('1st-portfolio-item')"  >
+                            </div>
+                        </div>
                         <div class="two-col-wrapper-projects">
                             <div class="portfolio-image-wrapper">
-                                <img src="images/SoM_report_GaussianProcessesV07.jpg">
+                                <iframe src="pdfs/SoM_report_GaussianProcessesV07.pdf"></iframe>
+                               <!-- <img src="images/SoM_report_GaussianProcessesV07.jpg">-->
                             </div>
                             <div class="portfolio-item-text-wrapper">
                                 <div class="portfolio-item-headline-wrapper">
                                     <h2>Studying Gaussian Processes and writing a comprehensive report on methods of propagating uncertainty</h2>
                                 </div>
                                 <div class="portfolio-item-main-body-wrapper">
+                                    <p>> using: LaTeX </p>
                                     <p>Gaussian Processes (GPs) are a powerful data-driven tool for approximating unknown or expensive to evaluate functions. GPs are specifically useful for time-series prediction which is for example used in Control to model dynamical systems. GPs ability to express the uncertainty of the relative prediction renders them especially useful here.</p>
                                     <p>GPs come with the downside that their computational effort does not scale well with large amounts of data. They are additionally difficult to evaluate at random inputs as there is no closed-form solution for such evaluations. Unfortunately the conventional ways of approximating the propagation of uncertainty underestimate it. Both of these drawbacks are reducing the applicability of GPs in Control. I am addressing these issues in the  report by summarizing a range of recent state-of-the-art solutions to these challenges. The report is written in LaTeX.</p>
                                 </div>
@@ -120,6 +127,7 @@
                                     <h2>Webscraping bot for automating gym reservations using python</h2>
                                 </div>
                                 <div class="portfolio-item-main-body-wrapper">
+                                    <p>> using: Python, Selenium, AWS</p>
                                     <p>Covid brought restrictions on the amount of people allowed in the gym I usually go to with it. One had to reserve a slot via an online form. This begged for automation for any regular gym-goers. So I implemented a webscraping bot that does the reservation automatically at the times I wanted it to over the course of a week, as specified in a txt-file. </p>
                                     <p>I chose the selenium framework to implement the bot and hosted it on an AWS-server to ensure it could run independently of my everyday laptop. The execution of the script is triggered with crontab.</p>
                                 </div>
