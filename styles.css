@@ -26,6 +26,11 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 38px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
 }
 .nav-wrapper > .left-side > div {
     margin-right: 20px;
@@ -222,6 +227,7 @@ a {
     padding-top: 5%;
     padding-right: 20%;
 }
+
 .profile-img-wrapper img{
     width: 70%;
     padding-left: 20%;
