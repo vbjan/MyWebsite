@@ -210,6 +210,10 @@ a {
 }
 
 /* download styles for project page*/
+.download-section-desc-wrapper {
+    padding-top: 20px;
+}
+
 .download-wrapper-black {
     padding-top: 20px;
     text-align: center;
