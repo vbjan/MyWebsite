@@ -286,8 +286,42 @@ a {
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 70px;
-    padding-bottom: 70px;
 }
 .logo-wrapper:hover img{
     opacity: 100%;
+}
+.disclaimer-wrapper {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+.disclaimer-wrapper a {
+    text-decoration: none;
+    color: #8a8a8a;
+}
+.disclaimer-wrapper a:hover {
+    color: black;
+}
+
+/*-------------------------------Disclaimer page-------------------------------*/
+
+.impressum {
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    text-align: justify;
+}
+.impressum a {
+    text-decoration: none;
+    color: black;
+}
+.disclaimer-info-wrapper {
+    text-align: center;
+}
+.disclaimer-info-wrapper a {
+    color: #8a8a8a;
+}
+.disclaimer-info-wrapper a:hover {
+    color: black;
 }
